@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>My contact details are:</h1>
+    <ul>
+      <li><strong>Phone number: </strong>8319659673</li>
+      <li><strong>Email Id: </strong>shuklapiyush993@gmail.com</li>
+      <li><strong>Address: </strong>Manomay CHS, Sector-35, Kharghar</li>
+    </ul>
+    <!--Instead of wirting the contact details we can use a from to display the
+      contact -->
+      <hr size="3px" noshade>
+      <!--We added encrypt="text/plain" to tell the browser that no need to encrypt the data it should be
+         passed as plain text eg in the way we write it no ecryption-->
+      <form class="" action="mailto:shuklapiuysh993@gmail.com" method="post" enctype="text/plain">
+         <!--To access data entered into the input fields we need to give input fields
+         name so that the name can be used for accessing the data-->
+         <label for="">Your Name:</label>
+         <input type="text" name="yourName" value="">
+         <br>
+         <label for="">Your Email:</label>
+         <!--The email input type does some basic validation-->
+         <input type="email" name="yourEmail" value="">
+         <br>
+         <label for="">Your message</label>
+         <br>
+         <textarea name="yourMessage" rows="10" cols="30"></textarea>
+         <br>
+         <input type="submit" name="">
+      </form>
+      <!--Challange Question-->
+      <h1>Challange Html Code</h1>
+      <form class="" action="index.html" method="post">
+         <input type="text" name="" value="">
+         <br>
+         <input type="submit" name="" value="Submit">
+         <br>
+         <input type="file" name="" value="">
+         <br>
+         <input type="date" name="" value="">
+         <br>
+         <input type="radio" name="" value="">
+         <br>
+         <input type="range" name="" value="">
+      </form>
+  </body>
+</html>
